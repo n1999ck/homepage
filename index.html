@@ -140,6 +140,30 @@
 			<h1>Hello, <span class="flair">Djordje</span></h1>
 		</header>
 
+		<!--- Search bar powered by searX instance --->
+		<form id="form" role="search">
+			<input autofocus
+				type="search"
+				id="query"
+				name="q"
+				placeholder="Search..."
+			/>
+		</form>
+
+		<!--- Function for Search bar --->
+		<script>
+			const f = document.getElementById("form");
+			const q = document.getElementById("query");
+			const search ="https://searx.cthd.icu/?q=";
+
+			function submitted(event) {
+				event.preventDefault();
+				const url = search + q.value + "&ia=web";
+				window.open(url, "_self");
+			}
+			f.addEventListener("submit", submitted);
+		</script>
+
 		<nav>
 			<br>
 			<ul class="blue">
