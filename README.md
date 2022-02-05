@@ -3,7 +3,7 @@ homepage
 
 ### Live Demo: <a href="https://djordjeivanovic9.github.io/homepage/">Demo</a>
 
-### searX instance: <a href="https://searx.cthd.icu/">Link</a>
+### DuckDuckGo: <a href="https://duckduckgo.com/">Link</a>
 
 ### Default Home
 <img src="homepage.png" alt="Home" width="100%"/>
@@ -12,4 +12,4 @@ This is a fork of RamenMaestro's [startpage](https://github.com/RamenMaestro/sta
 
 ## Credits
 Images used in the sidebar are by background artist [Waneella](https://twitter.com/waneella_).\
-searX instance provided by [Cybertech Headless Daemon](https://gitlab.cthd.icu/cthd).
+Search bar powered by DuckDuckGo. 
