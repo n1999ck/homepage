@@ -6,7 +6,7 @@
 body {
   font-family: 'eurostile', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
-  background-color: #0F0F12;
+  background-color: #1b1629;
   background-image: url("img/");
   background-repeat: repeat;
   width: 670px;
@@ -28,7 +28,7 @@ h1 {
 }
 
 .flair {
-  color: #0972D6;
+  color: #804f94;
 }
 
 .main {
@@ -43,7 +43,7 @@ h1 {
   left: -200px;
   right: 0px;
   margin: auto;
-  background-color: #18181D;
+  background-color: #2e293b;
   text-align: center;
 }
 
@@ -104,8 +104,8 @@ img {
 }
 
 .codes {
-  color: #FFFFFF;
-  font-family: Iosevka, monospace;
+  color: #adadad;
+  font-family: 'eurostile';
   font-size: 18px;
   position: absolute;
   top: 565px;
@@ -125,7 +125,6 @@ nav {
   color: #BFBFBF;
   font-size: 20px;
   text-align: center;
-  left: 50%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -136,7 +135,7 @@ ul {
   horizontal-align: middle;
   text-align: center;
   height: 100%;
-  border-color: #232328;
+  border-color: #3b3b49;
   border-right-width: 1px;
   border-right-style: solid;
   padding: 10px 25px;
@@ -185,7 +184,7 @@ ul[class=purple] > li > a:hover {
 
 input {
   background-color: unset;
-  font: 20px "Iosevka";
+  font: 20px "eurostile";
   color: #d5d5d5;
   height: 100%;
   width: 30%;
@@ -193,7 +192,7 @@ input {
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: solid;
-  border-bottom-color:#384149;
+  border-bottom-color:#334d43;
   text-align: center;
   margin-bottom: 20px;
   margin-left: auto;
