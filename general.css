@@ -1,10 +1,10 @@
 @font-face {
-  font-family:'Iosevka';
-  src: url('Iosevka.ttf');
+  font-family:'eurostile';
+  src: url('eurostile.TTF');
 }
 
 body {
-  font-family: 'Iosevka', monospace;
+  font-family: 'eurostile', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
   background-color: #0F0F12;
   background-image: url("img/");
@@ -125,7 +125,7 @@ nav {
   color: #BFBFBF;
   font-size: 20px;
   text-align: center;
-  left= 50%;
+  left: 50%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -164,12 +164,12 @@ ul > li > a {
 }
 
 ul[class=green] > li > a:hover {
-  color: #4FAE0F;
+  color: #0fae0f;
   transition: all 0.5s;
 }
 
 ul[class=blue] > li > a:hover {
-  color: #0972D6;
+  color: #42a7f5;
   transition: all 0.5s;
 }
 
@@ -178,8 +178,8 @@ ul[class=red] > li > a:hover {
   transition: all 0.5s;
 }
 
-ul[class=yellow] > li > a:hover {
-  color: #edd934;
+ul[class=purple] > li > a:hover {
+  color: #d28ad5;
   transition: all 0.5s;
 }
 
