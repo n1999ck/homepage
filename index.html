@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<title>home</title>
 	<link rel="shortcut icon" href="favicons/bugicon.png" type="image/x-icon">
-	<link rel="stylesheet" style="text/css" href="general.css"/>
+	<link rel="stylesheet" href="general.css"/>
 </head>
 <body>
 	<div class="main" style="display: block">
@@ -169,11 +169,7 @@
 			<ul class="blue">
 				<a style="font-size:22px">Fun</a>
 				<li><a href="https://www.youtube.com">Youtube</a></li>
-				<li><a href="https://www.tumblr.com/">Tumblr</a></li>
 				<li><a href="https://www.neopets.com/index.phtml">Neopets</a></li>
-				<li><a href="https://fmovies.to/">FMovies</a></li>
-                <li><a href="https://9anime.to/">9Anime</a></li>
-				<li><a href="https://anilist.co/home">Anilist</a></li>
 				<li><a href="https://mangadex.org/">Mangadex</a></li>
 			</ul>
 
@@ -182,30 +178,21 @@
 				<li><a href="https://www.notion.so/">Notion</a></li>
 				<li><a href="https://colstate.view.usg.edu/d2l/home">Cougarview</a></li>
 				<li><a href="https://mycsu.columbusstate.edu/#/">MyCSU</a></li>
-				<li><a href="https://app.slack.com/client/T0HAKDJ9Z/C0HAKDJBD">Uproar Slack</a></li>
-				<li><a href="https://drive.google.com/drive/u/1/folders/0ANncducVid5tUk9PVA">Uproar Drive</a></li>
 				<li><a href="https://www.columbusstate.edu/">Columbus State</a></li>
-				<li><a href="https://newconnect.mheducation.com/">MH Connect</a></li>
 			</ul>
 
 			<ul class="red">
 				<a style="font-size:22px">Tech</a>
 				<li><a href="https://github.com/">Github</a></li>
-				<li><a href="https://tech.lgbt/home">Tech.LGBT</a></li>
 				<li><a href="https://news.ycombinator.com/">Hacker News</a></li>
 				<li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
-				<li><a href="https://webdesignrepo.com/">Web Design Repo</a></li>
 				<li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
 			</ul>
 
 			<ul class="purple">
-				<a style="font-size:22px">Else</a>
+				<a style="font-size:22px">More</a>
 				<li><a href="https://gmail.com/">Gmail</a></li>
 				<li><a href="https://drive.google.com/">Google Drive</a></li>
-				<li><a href="https://newsblur.com/">RSS feed</a></li>
-				<li><a href="https://getpocket.com/home">Pocket</a></li>
-				<li><a href="https://medium.com/">Medium</a></li>
-				<li><a href="https://z-lib.org/">Z-Lib</a></li>
 			</ul>
 		</nav>
 
@@ -226,6 +213,8 @@
 
 				// set the content of the element with the ID codes to the formatted string
 				document.getElementById('codes').innerHTML = dateString;
+
+				//TODO: Change greeting based on time of day
 
 				// call this function again in 1000ms
 				setTimeout(updateClock, 1000);
